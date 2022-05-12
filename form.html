@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="#" method="post">
+        Name*:<input type="text" name="txtName" required placeholder="Please Enter your Full Name" /> <br />
+        Password*:<input type="password" name="txtPassword" required /> <br />
+        Email*:<input type="email" name="txtEmail" required /><br />
+        Age:<input type="number" name="txtAge" required /><br />
+        Date:<input type="date" name="txtDoB" required /><br />
+        Color:<input type="color" name="txtColor" /><br />
+        Range:<input type="range" name="txtRange" /><br />
+        <br />
+        <br />
+        Did you Play Ciricket?<input type="checkbox" name="chkCricket" /><br />
+        Did you Travel?<input type="checkbox" name="chkTravel" /><br />
+        Did you Eat Pizza?<input type="checkbox" name="chkCricket" /><br />
+        <br />
+        <br />
+        Gender<input type="radio" name="rdGender" value="Male" />Male 
+        <input type="radio" name="rdGender" value="Female" />Female
+
+        <br />
+        Education<input type="radio" name="rdEducation" value="Inter" />Inter
+        <input type="radio" name="rdEducation" value="BS" />BS
+        <input type="radio" name="rdEducation" value="MS" />MS
+        <br />
+        <br />
+        <select name="selCountry" multiple>
+            <option value="---">----Select----</option>
+            <option value="PK">Pakistan</option>
+            <option value="US">USA</option>
+            <option value="GB">UK</option>
+            <option value="AE">UAE</option>
+            <option value="KSA">KSA</option>
+        </select>
+        <br />
+        <br />
+        <textarea name="taSummary" rows="10" cols="50"></textarea>
+        <br />
+        <br />
+        <input type="reset" value="Clear" />
+        <input type="submit" value="Send" />
+    </form>
+</body>
+</html>

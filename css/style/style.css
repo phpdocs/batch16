@@ -1,0 +1,24 @@
+h1{
+    color:rgb(38, 204, 88);
+    font-size:40px;
+}
+
+.red-heading{
+    color:red;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#special-heading{
+    font-size:50px;
+    color:orange;
+}
+
+.container p{
+    background-color: yellow;
+}
+
+.container span{
+    background-color: orange;
+}
